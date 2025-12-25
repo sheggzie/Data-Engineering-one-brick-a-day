@@ -11,5 +11,5 @@ def get_pokemon_info():
     with open("pokemon_data", "w") as file:
         data = json.dump(response_json, file)
     print(data)
-    
+     
 get_pokemon_info()
