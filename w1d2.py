@@ -1,15 +1,7 @@
-import requests
 import json
+import pandas as pd
 
-base_url = "https://pokeapi.co/api/v2/pokemon"
+json_file = "pokemon_data.json"
 
-def get_pokemon_info():
-    response = requests.get(base_url)
-
-    response_json = json.loads(response.text)
-    
-    with open("pokemon_data", "w") as file:
-        data = json.dump(response_json, file)
-    print(data)
-     
-get_pokemon_info()
+data = pd.read_json(json_file)
+data.to_csv('pokemon_data_table.csv')
