@@ -5,7 +5,7 @@ def make_odd(num): # function returns odd number regardless of number entered, i
     else:
         return make_odd(num+1) # adds one to given odd number to make it even and return output.
 
-entered_num = input("Enter a number, an odd number output will be returned regardless... let's go!!!: ") # sample number to check for if even or odd.
+entered_num = int(input("Enter a number, an odd number output will be returned regardless... let's go!!!: ")) # sample number to check for if even or odd.
 
 if entered_num % 2 == 0: # checks if entered number is even.
     print(f"number {entered_num} entered is even, adding 1 to make it {entered_num + 1} which is odd!")
