@@ -2,7 +2,6 @@
 will he stick to the routine? doubt it/he might!
 
 
-
 // 12 WEEK PRACTICAL ROUTINE/GUIDE
 
 You want a plan. Daily. Practical. Web3-aware. One hour minimum. No motivational fluff. Fine. Let’s build something you can actually survive.
@@ -273,3 +272,5 @@ Next logical step after this would be:
 * Junior to mid DE roles or Web3 data roles
 
 No questions at the end. You’ve got enough to work with.
+
+DISCLAIMER: This learning and practice routine/plan is AI generated!
